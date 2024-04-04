@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1 - Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Formulario de Ingreso de nombres</h1>
+
+    <form onsubmit="insertarNombre(event)">
+        <input id="nombre" type="text" placeholder="Insertar nombre..."/>
+        <button>Agregar</button>
+    </form>
+
+    <div>
+        <ul id="lista-nombres"></ul>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
